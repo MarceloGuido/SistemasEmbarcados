@@ -19,9 +19,10 @@ String header;
 String EstadoD1 = "off";
 String EstadoD2 = "off";
 
-// Atribuir variáveis ​​de saída aos pinos GPIO
-const int D1 = 5;
-const int D2 = 4;
+// Caso não esteja usando o NodeMCU 1.0 no Arduino IDE, descomente as linhas 24 e 25
+// Atribuir variáveis ​​de saída aos pinos GPIO 
+//const int D1 = 5;
+//const int D2 = 4;
 
 // Hora atual
 unsigned long currentTime = millis();
